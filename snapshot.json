@@ -54,5 +54,28 @@
         }
       }
     }
+  ],
+  "ideas": [
+    {
+      "title": "고객 알림 기능 추가",
+      "service_name": "예약 관리 서비스",
+      "status": "idea",
+      "priority": "높음",
+      "target_date": "2026-09-20"
+    },
+    {
+      "title": "운영 지표 대시보드 확장",
+      "service_name": "분석 도구",
+      "status": "planned",
+      "priority": "중간",
+      "target_date": "2026-10-01"
+    },
+    {
+      "title": "콘텐츠 발행 흐름 개선",
+      "service_name": "콘텐츠 서비스",
+      "status": "in progress",
+      "priority": "높음",
+      "target_date": "2026-09-15"
+    }
   ]
 }
