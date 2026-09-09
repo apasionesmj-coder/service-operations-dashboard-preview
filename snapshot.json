@@ -1,81 +1,50 @@
 {
-  "collected_at": "2026-09-08T06:50:00Z",
-  "collector_version": "preview-fixture",
+  "schema_version": 1,
+  "collected_at": "2026-09-09T02:00:00+00:00",
+  "preview_notice": "모든 항목은 공개 Preview용 일반화된 샘플 데이터입니다.",
   "services": [
     {
-      "id": "sample-operating",
+      "id": "sample-content",
       "name": "콘텐츠 서비스",
       "description": "콘텐츠를 발행하고 관리하는 샘플 운영 서비스입니다.",
       "lifecycle": "operating",
       "automated_status": "healthy",
       "next_action": "다음 콘텐츠 배포 범위 검토",
-      "checks": [
-        {
-          "name": "공개 페이지",
-          "status": "healthy",
-          "status_code": 200,
-          "response_ms": 142
-        }
-      ],
-      "github": {
-        "latest_commit": {
-          "message": "콘텐츠 목록 화면 개선",
-          "date": "2026-09-08T06:50:00Z"
-        }
-      }
+      "checks": [{"name": "공개 페이지", "status": "ok"}],
+      "github": {"latest_commit": {"message": "콘텐츠 목록 화면 개선", "date": "2026-09-09T02:00:00Z"}}
     },
     {
-      "id": "sample-building",
+      "id": "sample-reservations",
       "name": "예약 관리 서비스",
-      "description": "예약과 고객 흐름을 관리하는 샘플 구축 서비스입니다.",
-      "lifecycle": "building",
-      "automated_status": "unknown",
+      "description": "예약과 고객 흐름을 관리하는 샘플 서비스입니다.",
+      "lifecycle": "operating",
+      "automated_status": "degraded",
       "next_action": "예약 상태 흐름 테스트",
-      "checks": [],
-      "github": {
-        "latest_commit": {
-          "message": "예약 상태 모델 초안",
-          "date": "2026-09-07T04:30:00Z"
-        }
-      }
+      "checks": [{"name": "애플리케이션", "status": "unknown"}],
+      "github": {"latest_commit": {"message": "예약 상태 모델 초안", "date": "2026-09-08T04:30:00Z"}}
     },
     {
-      "id": "sample-planned",
-      "name": "분석 도구",
-      "description": "운영 데이터를 분석하기 위한 샘플 예정 서비스입니다.",
+      "id": "sample-planning",
+      "name": "신규 서비스",
+      "description": "범위와 운영 계획을 검토 중인 샘플 예정 서비스입니다.",
       "lifecycle": "planned",
       "automated_status": "planned",
       "next_action": "필요 지표와 범위 정의",
       "checks": [],
-      "github": {
-        "latest_commit": {
-          "message": "분석 도구 아이디어 정리",
-          "date": "2026-09-05T02:10:00Z"
-        }
-      }
+      "github": {"latest_commit": {"message": "서비스 아이디어 정리", "date": "2026-09-06T02:10:00Z"}}
     }
   ],
   "ideas": [
-    {
-      "title": "고객 알림 기능 추가",
-      "service_name": "예약 관리 서비스",
-      "status": "idea",
-      "priority": "높음",
-      "target_date": "2026-09-20"
-    },
-    {
-      "title": "운영 지표 대시보드 확장",
-      "service_name": "분석 도구",
-      "status": "planned",
-      "priority": "중간",
-      "target_date": "2026-10-01"
-    },
-    {
-      "title": "콘텐츠 발행 흐름 개선",
-      "service_name": "콘텐츠 서비스",
-      "status": "in progress",
-      "priority": "높음",
-      "target_date": "2026-09-15"
-    }
-  ]
+    {"id": "sample-idea-1", "title": "고객 알림 기능 추가", "service_name": "예약 관리 서비스", "status": "idea", "priority": "높음", "target_date": "2026-09-20"},
+    {"id": "sample-idea-2", "title": "운영 지표 화면 확장", "service_name": "신규 서비스", "status": "planned", "priority": "중간", "target_date": "2026-10-01"},
+    {"id": "sample-idea-3", "title": "콘텐츠 발행 흐름 개선", "service_name": "콘텐츠 서비스", "status": "in progress", "priority": "높음", "target_date": "2026-09-15"}
+  ],
+  "notion_status": "ok",
+  "ga4": {
+    "status": "ok",
+    "period_days": 14,
+    "metrics": {"activeUsers": 128, "sessions": 214, "screenPageViews": 463, "engagedSessions": 146},
+    "top_pages": [{"label": "/", "value": 174}, {"label": "/guide/getting-started", "value": 96}, {"label": "/articles/example", "value": 62}],
+    "traffic_channels": [{"label": "Organic Search", "value": 102}, {"label": "Direct", "value": 71}, {"label": "Referral", "value": 25}]
+  }
 }
