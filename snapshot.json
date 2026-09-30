@@ -18,9 +18,13 @@
       "name": "예약 관리 서비스",
       "description": "예약과 고객 흐름을 관리하는 샘플 서비스입니다.",
       "lifecycle": "operating",
-      "automated_status": "degraded",
+      "automated_status": "healthy",
       "next_action": "예약 상태 흐름 테스트",
-      "checks": [{"name": "애플리케이션", "status": "unknown"}],
+      "checks": [
+        {"name": "내부 연결", "status": "ok"},
+        {"name": "외부 경로", "status": "ok", "successful_relays": 3, "relay_count": 3},
+        {"name": "애플리케이션", "status": "ok"}
+      ],
       "github": {"latest_commit": {"message": "예약 상태 모델 초안", "date": "2026-09-08T04:30:00Z"}}
     },
     {
