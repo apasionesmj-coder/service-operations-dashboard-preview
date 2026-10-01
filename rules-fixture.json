@@ -1,9 +1,9 @@
 {
   "sources": ["예시 / 작업 원칙", "예시 / 발행 기준", "예시 / 프로젝트 정책"],
   "documents": [
-    {"id":"sample-work","title":"예시 작업 원칙","role":"승인과 검증의 기본 흐름","applicability":"모든 예시 프로젝트","source":"예시 / 작업 원칙","modified_at":"2026-09-30T00:00:00+00:00"},
-    {"id":"sample-publish","title":"예시 발행 기준","role":"공개 전 검토 기준","applicability":"콘텐츠 예시 프로젝트","source":"예시 / 발행 기준","modified_at":"2026-09-30T00:00:00+00:00"},
-    {"id":"sample-operations","title":"예시 프로젝트 정책","role":"운영 작업의 안전 경계","applicability":"운영 예시 프로젝트","source":"예시 / 프로젝트 정책","modified_at":"2026-09-30T00:00:00+00:00"}
+    {"id":"sample-work","title":"예시 작업 원칙","role":"승인과 검증의 기본 흐름","applicability":"모든 예시 프로젝트","source":"예시 / 작업 원칙","modified_at":"2026-09-30T00:00:00+00:00","display_entries":[{"source_order":1,"text":"# 예시 작업 원칙\n\n1.1. 구현과 테스트 범위를 먼저 확인합니다."},{"source_order":2,"text":"1.2. 다음 단계의 승인 범위를 분명히 안내합니다."}]},
+    {"id":"sample-publish","title":"예시 발행 기준","role":"공개 전 검토 기준","applicability":"콘텐츠 예시 프로젝트","source":"예시 / 발행 기준","modified_at":"2026-09-30T00:00:00+00:00","display_entries":[{"source_order":1,"text":"# 예시 발행 기준\n\n1.1. 공개 전 화면과 링크를 확인합니다."}]},
+    {"id":"sample-operations","title":"예시 프로젝트 정책","role":"운영 작업의 안전 경계","applicability":"운영 예시 프로젝트","source":"예시 / 프로젝트 정책","modified_at":"2026-09-30T00:00:00+00:00","display_entries":[{"source_order":1,"text":"# 예시 프로젝트 정책\n\n1.1. 운영 변경 뒤 실제 상태를 다시 확인합니다."}]}
   ],
   "generated_at":"2026-09-30T00:00:00+00:00",
   "preview_notice":"공개 Preview 전용 가짜 예시이며 실제 Hermes 기록이 아닙니다.",
