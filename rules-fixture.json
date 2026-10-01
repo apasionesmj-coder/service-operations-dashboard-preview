@@ -1,15 +1,15 @@
 {
   "sources": ["예시 / 작업 원칙", "예시 / 발행 기준", "예시 / 프로젝트 정책"],
   "documents": [
-    {"id":"sample-work","title":"예시 작업 원칙","role":"승인과 검증의 기본 흐름","applicability":"모든 예시 프로젝트","source":"예시 / 작업 원칙","modified_at":"2026-09-30T00:00:00+00:00","display_entries":[{"source_order":1,"text":"# 예시 작업 원칙\n\n1.1. 구현과 테스트 범위를 먼저 확인합니다."},{"source_order":2,"text":"1.2. 다음 단계의 승인 범위를 분명히 안내합니다."}]},
-    {"id":"sample-publish","title":"예시 발행 기준","role":"공개 전 검토 기준","applicability":"콘텐츠 예시 프로젝트","source":"예시 / 발행 기준","modified_at":"2026-09-30T00:00:00+00:00","display_entries":[{"source_order":1,"text":"# 예시 발행 기준\n\n1.1. 공개 전 화면과 링크를 확인합니다."}]},
-    {"id":"sample-operations","title":"예시 프로젝트 정책","role":"운영 작업의 안전 경계","applicability":"운영 예시 프로젝트","source":"예시 / 프로젝트 정책","modified_at":"2026-09-30T00:00:00+00:00","display_entries":[{"source_order":1,"text":"# 예시 프로젝트 정책\n\n1.1. 운영 변경 뒤 실제 상태를 다시 확인합니다."}]}
+    {"id":"sample-work","title":"예시 작업 원칙","role":"승인과 검증의 기본 흐름","applicability":"모든 예시 프로젝트","source":"예시 / 작업 원칙","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 대화와 승인\n\n1.1. 구현 전에 범위와 검증 방법을 안내합니다.\n1.2. 다음 단계의 승인 범위를 분명히 안내합니다."},{"source_order":2,"text":"## 2. 작업 기록\n\n2.1. 검증이 끝난 뒤 결과와 다음 작업을 기록합니다."}]},
+    {"id":"sample-publish","title":"예시 발행 기준","role":"공개 전 검토 기준","applicability":"콘텐츠 예시 프로젝트","source":"예시 / 발행 기준","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 공개 전 확인\n\n1.1. 공개 전 화면과 링크를 확인합니다."},{"source_order":2,"text":"## 2. 독자 안내\n\n2.1. 출처와 검증 범위를 분명히 표시합니다."}]},
+    {"id":"sample-operations","title":"예시 프로젝트 정책","role":"운영 작업의 안전 경계","applicability":"운영 예시 프로젝트","source":"예시 / 프로젝트 정책","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 운영 승인\n\n1.1. 운영 변경은 승인된 범위에서만 수행합니다."},{"source_order":2,"text":"## 2. 운영 검증\n\n2.1. 변경 뒤 실제 서비스 상태를 다시 확인합니다."}]}
   ],
-  "generated_at":"2026-09-30T00:00:00+00:00",
+  "generated_at":"2026-10-01T00:00:00+00:00",
   "preview_notice":"공개 Preview 전용 가짜 예시이며 실제 Hermes 기록이 아닙니다.",
   "entries":[
-    {"id":"sample-001","source":"sample-work","source_order":1,"source_modified_at":"2026-09-30T00:00:00+00:00","group_id":"unclassified","scopes":[],"text":"예시: 구현과 테스트가 끝난 뒤에는 검토할 범위와 결과를 분명히 표시합니다."},
-    {"id":"sample-002","source":"sample-publish","source_order":1,"source_modified_at":"2026-09-30T00:00:00+00:00","group_id":"unclassified","scopes":[],"text":"예시: 공개 전에는 화면과 링크가 의도대로 작동하는지 확인합니다."},
-    {"id":"sample-003","source":"sample-operations","source_order":1,"source_modified_at":"2026-09-30T00:00:00+00:00","group_id":"unclassified","scopes":[],"text":"예시: 운영 변경은 실제 서비스 상태를 다시 확인한 뒤 완료로 판단합니다."}
+    {"id":"sample-001","source":"sample-work","source_order":1,"source_modified_at":"2026-10-01T00:00:00+00:00","group_id":"unclassified","scopes":[],"text":"예시: 구현과 테스트가 끝난 뒤에는 검토할 범위와 결과를 분명히 표시합니다."},
+    {"id":"sample-002","source":"sample-publish","source_order":1,"source_modified_at":"2026-10-01T00:00:00+00:00","group_id":"unclassified","scopes":[],"text":"예시: 공개 전에는 화면과 링크가 의도대로 작동하는지 확인합니다."},
+    {"id":"sample-003","source":"sample-operations","source_order":1,"source_modified_at":"2026-10-01T00:00:00+00:00","group_id":"unclassified","scopes":[],"text":"예시: 운영 변경은 실제 서비스 상태를 다시 확인한 뒤 완료로 판단합니다."}
   ]
 }
