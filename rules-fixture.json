@@ -3,7 +3,8 @@
   "documents": [
     {"id":"sample-work","title":"예시 작업 원칙","role":"승인과 검증의 기본 흐름","applicability":"모든 예시 프로젝트","source":"예시 / 작업 원칙","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 대화와 승인\n\n1.1. 구현 전에 범위와 검증 방법을 안내합니다.\n1.2. 다음 단계의 승인 범위를 분명히 안내합니다."},{"source_order":2,"text":"## 2. 작업 기록\n\n2.1. 검증이 끝난 뒤 결과와 다음 작업을 기록합니다."}]},
     {"id":"sample-publish","title":"예시 발행 기준","role":"공개 전 검토 기준","applicability":"콘텐츠 예시 프로젝트","source":"예시 / 발행 기준","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 공개 전 확인\n\n1.1. 공개 전 화면과 링크를 확인합니다."},{"source_order":2,"text":"## 2. 독자 안내\n\n2.1. 출처와 검증 범위를 분명히 표시합니다."}]},
-    {"id":"sample-operations","title":"예시 프로젝트 정책","role":"운영 작업의 안전 경계","applicability":"운영 예시 프로젝트","source":"예시 / 프로젝트 정책","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 운영 승인\n\n1.1. 운영 변경은 승인된 범위에서만 수행합니다."},{"source_order":2,"text":"## 2. 운영 검증\n\n2.1. 변경 뒤 실제 서비스 상태를 다시 확인합니다."}]}
+    {"id":"sample-operations","title":"예시 프로젝트 정책","role":"운영 작업의 안전 경계","applicability":"운영 예시 프로젝트","source":"예시 / 프로젝트 정책","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 운영 승인\n\n1.1. 운영 변경은 승인된 범위에서만 수행합니다."},{"source_order":2,"text":"## 2. 운영 검증\n\n2.1. 변경 뒤 실제 서비스 상태를 다시 확인합니다."}]},
+    {"id":"sample-recovery","title":"예시 운영 절차","role":"점검과 복구의 읽기 전용 예시","applicability":"운영 예시 프로젝트","source":"예시 / 운영 절차","modified_at":"2026-10-01T00:00:00+00:00","display_entries":[{"source_order":1,"text":"## 1. 정상 상태 확인\n\n1.1. 변경 전후 서비스 상태와 안전한 점검 결과를 확인합니다."},{"source_order":2,"text":"## 2. 복구 완료 확인\n\n2.1. 복구 뒤 필요한 상태를 다시 확인하고 결과를 기록합니다."}]}
   ],
   "generated_at":"2026-10-01T00:00:00+00:00",
   "preview_notice":"공개 Preview 전용 가짜 예시이며 실제 Hermes 기록이 아닙니다.",
